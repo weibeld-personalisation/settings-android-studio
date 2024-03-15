@@ -1,0 +1,22 @@
+" .ideavimrc
+"
+" Configuration file for the IdeaVim IntelliJ IDEA plugin.
+" Documentation:
+"   - https://github.com/JetBrains/ideavim
+"   - https://github.com/JetBrains/ideavim/wiki
+"------------------------------------------------------------------------------"
+
+source ~/.vimrc.core
+
+"=============================================================================="
+"++Plugins
+" https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins
+"=============================================================================="
+
+" IdeaVim-Quickscope (may introduce lag)
+" Note: install plugin zip file from [1] through Android Studio
+" [1] https://plugins.jetbrains.com/plugin/19417-ideavim-quickscope
+"Plug 'https://github.com/unblevable/quick-scope'
+"set quickscope
+" TODO: highlights are still always shown not only when these keys are pressed
+"let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
