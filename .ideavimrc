@@ -9,6 +9,13 @@
 source ~/.vimrc.core
 
 "=============================================================================="
+"++Mappings
+"=============================================================================="
+
+" Rebuild 'Replace all occurrences of word under cursor' command
+map <leader>S wbve<Action>(ReplaceInPath)
+
+"=============================================================================="
 "++Plugins
 " https://github.com/JetBrains/ideavim/wiki/IdeaVim-Plugins
 "=============================================================================="
